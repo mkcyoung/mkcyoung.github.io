@@ -2550,18 +2550,21 @@ html.no-csstransitions .hero-content {
 }
 
 .position__header h6 .position__co {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
   margin-right: 2rem;
 }
 
 .position__header h6 .position__pos {
   display: inline-block;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.8rem;
   text-transform: none;
   letter-spacing: 0;
 }
 
 .position__timeframe {
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 2rem;
@@ -2959,14 +2962,14 @@ html.no-csstransitions .hero-content {
 .folio-item__title {
   color: #ffffff;
   font-weight: 400;
-  font-size: 2.1rem;
+  font-size: 3rem;
   line-height: 1.333;
   margin: 0;
 }
 
 .folio-item__cat {
   color: rgba(255, 255, 255, 0.5);
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   margin-bottom: 0;
 }
@@ -2974,10 +2977,10 @@ html.no-csstransitions .hero-content {
 .folio-item__project-link {
   z-index: 2;
   display: block;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 2rem;
+  font-size: 2rem;
+  /* line-height: 2.2rem; */
   color: #000000;
   background-color: #ffffff;
   padding: .6rem 1.2rem;
@@ -2990,6 +2993,7 @@ html.no-csstransitions .hero-content {
   position: absolute;
   bottom: 3.9rem;
   left: 3rem;
+  border-radius: 10px;
 }
 
 .folio-item__project-link::before {
@@ -3006,7 +3010,7 @@ html.no-csstransitions .hero-content {
 .folio-item__project-link:hover,
 .folio-item__project-link:focus,
 .folio-item__project-link:active {
-  background-color: #f9861a;
+  background-color: #F46262;
   color: #ffffff;
 }
 

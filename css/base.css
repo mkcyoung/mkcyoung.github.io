@@ -1055,6 +1055,7 @@ textarea {
 	-webkit-box-flex: 0;
 	flex: 0 0 50%;
 	max-width: 50%;
+	align-items: stretch;
 }
 
 .block-large-full > .column {
