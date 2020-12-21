@@ -107,7 +107,7 @@ body {
   /* background: #a199f7; */
   background: white;
   font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   font-style: normal;
   font-weight: normal;
   line-height: 1.778;
@@ -1002,9 +1002,11 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #f9861a;
-  border-color: #f9861a;
+  background: #F46262;
+  border-color: #F46262;
   color: #ffffff;
+  font-weight: 400;
+  font-size: 2rem;
 }
 
 .btn.btn--primary:hover,
@@ -1482,22 +1484,26 @@ input::-moz-focus-inner {
 }
 
 .subhead {
-  font-size: 1.4rem;
+  font-family: 'Roboto','sans-serif';
+  font-weight: 400;
+  font-size: 1.8rem;
   line-height: 1.286;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: .4em;
   margin-top: 0;
   margin-bottom: 6rem;
-  color: #f9861a;
+  color: #F46262;
 }
 
 .display-1 {
+  font-family: 'Roboto','sans-serif';
+  font-weight: 700;
   font-size: 4.8rem;
   line-height: 1.333;
 }
 
 .s-about .section-intro {
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 .section-intro {
@@ -2402,7 +2408,7 @@ html.no-csstransitions .hero-content {
   }
 
   .hero-social {
-    font-size: 1.1rem;
+    font-size: 3rem;
   }
 
 }
@@ -2437,7 +2443,7 @@ html.no-csstransitions .hero-content {
   }
 
   .hero-social {
-    font-size: 1rem;
+    font-size: 3rem;
   }
 
   .hero-scroll {
@@ -2475,7 +2481,7 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-bottom: 16rem;
+  /* padding-bottom: 16rem; */
   background-color: #ffffff;
   position: relative;
 }
@@ -3299,16 +3305,16 @@ html.no-csstransitions .hero-content {
 .s-footer {
   padding-top: 24rem;
   padding-bottom: 8rem;
-  background-color: #0b0a15;
+  background-color: #A0B9B3;
   position: relative;
 }
 
 .s-footer .right-vert-line {
-  background-color: #f9861a;
+  background-color: #F46262;
 }
 
 .s-footer__bottom {
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 8rem;
 }
@@ -3329,7 +3335,7 @@ html.no-csstransitions .hero-content {
  * ## contact block
  * ------------------------------------------------------------------- */
 .footer-contact-block {
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 3rem;
   line-height: 1.2;
@@ -3341,7 +3347,7 @@ html.no-csstransitions .hero-content {
 
 .footer-contact-block a:hover,
 .footer-contact-block a:focus {
-  color: #f9861a;
+  color: #F46262;
 }
 
 .footer-contact-block__content,
@@ -3351,8 +3357,27 @@ html.no-csstransitions .hero-content {
 
 .footer-contact-block__list {
   list-style: none;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row wrap;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  text-transform: uppercase;
+  letter-spacing: .5em;
   margin-top: .4rem;
-  margin-left: 0;
+  margin-left: .4rem;
+  margin-bottom: 0;
+  position: relative;
+
+  /* list-style: none;
+  margin-top: .4rem;
+  margin-left: 0; */
 }
 
 .footer-contact-block__list li {
@@ -3378,7 +3403,7 @@ html.no-csstransitions .hero-content {
 
 .ss-copyright a:hover,
 .ss-copyright a:focus {
-  color: #f9861a;
+  color: #F46262;
 }
 
 .ss-copyright span {
