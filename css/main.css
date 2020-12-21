@@ -575,7 +575,7 @@ form,
   left: 0;
   right: 0;
   bottom: 0;
-  background: #0b0a15;
+  background: #A4A2CA;
   z-index: 500;
   height: 100vh;
   width: 100%;
@@ -1002,8 +1002,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #F46262;
-  border-color: #F46262;
+  background: #A4A2CA;
+  border-color: #A4A2CA;
   color: #ffffff;
   font-weight: 400;
   font-size: 2rem;
@@ -1783,14 +1783,14 @@ input::-moz-focus-inner {
 
 .header-menu-toggle:hover,
 .header-menu-toggle:focus {
-  color: #ffffff;
+  color: #A4A2CA;
 }
 
 .header-menu-toggle span {
   display: block;
   width: 2.4rem;
   height: 2px;
-  background-color: #ffffff;
+  background-color: #3D405B;
   -webkit-transition: all .5s;
   transition: all .5s;
   font: 0/0 a;
@@ -1832,7 +1832,7 @@ input::-moz-focus-inner {
 
 .header-menu-toggle.is-clicked span::before,
 .header-menu-toggle.is-clicked span::after {
-  background-color: white;
+  background-color: #3D405B;
 }
 
 .header-menu-toggle.is-clicked span::before {
@@ -1911,7 +1911,7 @@ input::-moz-focus-inner {
 
   .header-content {
     display: block;
-    background-color: #050505;
+    background-color: #fffefef1;
     height: auto;
     width: 100%;
     padding: 16rem 6rem 8rem;
@@ -2134,7 +2134,7 @@ input::-moz-focus-inner {
 .hero-social a:hover,
 .hero-social a:focus,
 .hero-social a:active {
-  color: #A0B9B3;
+  color: #A4A2CA;
 }
 
 .hero-social li {
@@ -2208,7 +2208,7 @@ input::-moz-focus-inner {
 
 .hero-scroll .scroll-link:hover,
 .hero-scroll .scroll-link:focus {
-  background-color: #f9861a;
+  background-color: #F46262;
 }
 
 /* -------------------------------------------------------------------
@@ -2500,7 +2500,7 @@ html.no-csstransitions .hero-content {
 .s-about__section--profile::before {
   content: "";
   display: block;
-  background-color: #b3c2c1;
+  background-color: #A4A2CA;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -2874,7 +2874,7 @@ html.no-csstransitions .hero-content {
 .s-portfolio::before {
   content: "";
   display: block;
-  background-color: #b3c2c1;
+  background-color: #A0B9B3;
   position: absolute;
   top: 0;
   right: 0;
@@ -3453,7 +3453,7 @@ html.no-csstransitions .hero-content {
 
 .ss-go-top a:hover,
 .ss-go-top a:focus {
-  background-color: #f9861a;
+  background-color: #F46262;
 }
 
 .ss-go-top svg {
